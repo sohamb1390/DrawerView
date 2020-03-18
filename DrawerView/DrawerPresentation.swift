@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import UIKit
 
 public protocol DrawerPresenter {
     func presentDrawerModal(_ presentedViewController: UIViewController, openHeightBehavior: DrawerView.OpenHeightBehavior)
